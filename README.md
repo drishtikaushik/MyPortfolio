@@ -1,4 +1,4 @@
-# Drishti Kaushik — Portfolio
+# Drishti Kaushik - Portfolio
 
 A single-page, scroll-driven portfolio site. Instead of the usual resume-card
 layout, the page tells a short first-person story in chapters, with one
@@ -29,7 +29,9 @@ scrolled.
 ## File structure
 
 ```
-portfolio.html   — the entire site (HTML + CSS + JS, self-contained)
+index.html   — HTML file
+style.css - CSS file
+script.js - JS file
 README.md        — this file
 ```
 
@@ -38,8 +40,8 @@ README.md        — this file
 No install, no dependencies. Just open the file:
 
 ```
-open portfolio.html      # macOS
-start portfolio.html     # Windows
+open index.html      # macOS
+start index.html     # Windows
 ```
 
 Or serve it locally if you prefer:
@@ -48,20 +50,20 @@ Or serve it locally if you prefer:
 python -m http.server
 ```
 
-then visit `http://localhost:8000/portfolio.html`.
+then visit `http://localhost:8000/index.html`.
 
 ## Hosting it
 
-Because it's a single static HTML file, it can go straight onto:
+it can go straight onto:
 
-- **GitHub Pages** — push it to a repo, rename it to `index.html`, enable
+- **GitHub Pages** — push it to a repo, enable
   Pages in the repo settings
 - **Vercel / Netlify** — drag-and-drop deploy, no config needed
 - Any basic static host or shared hosting plan
 
 ## Customizing
 
-Everything is inside `portfolio.html`, organized top to bottom:
+Everything is inside `index.html`, organized top to bottom:
 
 | Section | Where to edit |
 |---|---|
