@@ -90,11 +90,12 @@ section{
   display:flex;
   align-items:center;
   justify-content:center;
+  transform:translateX(clamp(-60px, -4vw, -24px));
 }
 .hero-photo-wrap{
   position:relative;
-  width:clamp(180px, 20vw, 280px);
-  height:clamp(180px, 20vw, 280px);
+  width:clamp(240px, 25vw, 360px);
+  height:clamp(240px, 25vw, 360px);
 }
 .hero-photo-wrap::before{
   content:'';
@@ -511,6 +512,7 @@ section{
   .panel{ max-width:100%; padding:36px 28px; }
   .skills-grid{ grid-template-columns:1fr; }
   .hero{ flex-direction:column-reverse; align-items:flex-start; gap:32px; }
-  .hero-photo-wrap{ width:140px; height:140px; }
+  .hero-photo-col{ transform:none; }
+  .hero-photo-wrap{ width:180px; height:180px; }
   .side-deco{ display:none; }
 }
